@@ -1,0 +1,27 @@
+body.indexpage,
+body.shoppage,
+body.newspage,
+body.spacespage {
+  background-color: #fffdf4;
+}
+
+body.bookpage {
+  background-color: #5a5a5a;
+}
+
+@font-face {
+  font-family: "Pragmatica";
+  src: url("../font/ofont.ru_Pragmatica.ttf") format("truetype");
+}
+
+span,
+p,
+a,
+h2,
+h3 {
+  font-family: Pragmatica;
+}
+
+a {
+  cursor: pointer;
+}

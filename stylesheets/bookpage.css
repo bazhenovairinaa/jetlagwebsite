@@ -1,0 +1,44 @@
+.burgermenu2 {
+  display: flex;
+  justify-content: space-around;
+  width: 23vw;
+  margin-left: 8vw;
+  margin-top: 2vw;
+}
+
+.burgermenu2 > a {
+  font-size: 1vw;
+  color: #fffdf4;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.burgermenu2 > a:hover {
+  text-decoration: underline;
+}
+
+.bookaboutspace {
+  position: absolute;
+  font-size: 200%;
+  margin-left: 9.5vw;
+  margin-top: 7vw;
+  width: 60vw;
+  color: #5a5a5a;
+  text-transform: uppercase;
+}
+
+.introaboutbook2 {
+  position: absolute;
+  width: 30vw;
+  font-size: 100%;
+  text-transform: uppercase;
+  margin-left: 9.5vw;
+  margin-top: 29vw;
+  color: #fffdf4;
+}
+
+.insidebook {
+  position: absolute;
+  margin-top: 7vw;
+  margin-left: 41vw;
+}
