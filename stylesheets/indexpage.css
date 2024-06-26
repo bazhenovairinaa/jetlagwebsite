@@ -632,6 +632,7 @@ input.field {
   }
 
   .missonrespon {
+    display: block;
     position: absolute;
     width: 80vw;
     font-size: 3vw;
