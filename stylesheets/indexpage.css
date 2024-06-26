@@ -634,11 +634,11 @@ input.field {
   .missonrespon {
     display: block;
     position: absolute;
-    width: 80vw;
-    font-size: 5.5vw;
+    width: 90vw;
+    font-size: 6vw;
     text-transform: uppercase;
     margin-left: 9.5vw;
-    margin-top: 111vw;
+    margin-top: 115vw;
     color: #5a5a5a;
   }
 
@@ -659,11 +659,11 @@ input.field {
 
   .company {
     position: absolute;
-    width: 60vw;
-    font-size: 2.5vw;
+    width: 70vw;
+    font-size: 3vw;
     text-transform: uppercase;
     margin-left: 9.5vw;
-    margin-top: 100vw;
+    margin-top: 102vw;
     color: #5a5a5a;
   }
 
@@ -676,26 +676,18 @@ input.field {
 
   .img2 {
     position: absolute;
-    margin-top: 14vw;
+    margin-top: 34vw;
     margin-left: 10vw;
     width: 25vw;
     animation: vanishing 3s linear infinite;
   }
 
   .img3-1 {
-    position: absolute;
-    margin-top: 70vw;
-    margin-left: 27vw;
-    width: 4vw;
-    animation: vanishing 2s linear infinite;
+    display: none;
   }
 
   .img3-2 {
-    position: absolute;
-    margin-top: 5.3vw;
-    margin-left: 30.9vw;
-    width: 4vw;
-    animation: vanishing 1s linear infinite;
+    display: none;
   }
 
   .img3-3 {
@@ -768,27 +760,37 @@ input.field {
 
   .img10 {
     position: absolute;
-    margin-top: 48vw;
-    margin-left: 4vw;
+    margin-top: 123vw;
+    margin-left: -4vw;
     width: 10vw;
     animation: vanishing 1s linear infinite;
   }
 
   .img11 {
     position: absolute;
-    margin-top: 44.2vw;
-    margin-left: 30.3vw;
-    width: 10vw;
+    margin-top: 134.2vw;
+    margin-left: 65.3vw;
+    width: 11.5vw;
     z-index: 1;
     animation: vanishing 3s linear infinite;
   }
 
   .img12 {
-    position: absolute;
-    margin-top: 47vw;
-    margin-left: 62.7vw;
-    width: 6vw;
-    z-index: 1;
-    animation: vanishing 3s linear infinite;
+    display: none;
+  }
+
+  .secondblock {
+    position: relative;
+    width: 98.8vw;
+    height: 80vw;
+    overflow: hidden;
+  }
+  .line1 {
+    height: 40vw;
+    position: relative;
+  }
+  .line2 {
+    height: 40vw;
+    position: relative;
   }
 }
