@@ -623,6 +623,10 @@ input.field {
   display: none;
 }
 
+.newsbox-responsive {
+  display: none;
+}
+
 @media (max-width: 767px) {
   .firstblock {
     position: relative;
@@ -935,36 +939,142 @@ input.field {
   .sixthblock {
     position: relative;
     width: 98.8vw;
-    height: 300vw;
+    height: 320vw;
     overflow: hidden;
   }
 
   .news {
-    position: absolute;
+    position: relative;
     font-size: 6vw;
     margin-left: 9.5vw;
-    width: 60vw;
     color: #5a5a5a;
     text-transform: uppercase;
   }
 
   .newsbox-1 {
-    display: flex;
-    justify-content: space-around;
-    width: 85vw;
-    margin-left: 8.5vw;
-    margin-top: 5vw;
+    display: none;
+  }
+
+  .newsbox-2 {
+    display: none;
+  }
+
+  .newsbox-3 {
+    display: none;
   }
 
   .plakats {
-    width: 18vw;
-    height: 26vw;
+    height: 60vw;
+    width: 40vw;
+    margin-left: 9.5vw;
+    margin-top: 3vw;
   }
 
-  .paragraphs {
+  .paragraphs3 {
     text-decoration: none;
-    width: 18vw;
-    font-size: 1.1vw;
+    width: 75vw;
+    font-size: 2.5vw;
     color: #5a5a5a;
+    margin-left: 9.5vw;
+  }
+
+  .newsbox-responsive {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+  }
+
+  .seventhblock {
+    position: relative;
+    width: 98.8vw;
+    height: 40vw;
+    overflow: hidden;
+  }
+
+  .signup {
+    position: relative;
+    font-size: 6vw;
+    width: 90vw;
+    margin-left: 9.5vw;
+    color: #5a5a5a;
+    text-transform: uppercase;
+    margin-top: 3vw;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1vw;
+  }
+
+  input.field {
+    color: #5a5a5a;
+    border: 1px solid #5a5a5a;
+    outline: none;
+    background: none;
+    font-weight: 500;
+    font-size: 3vw;
+    line-height: 160%;
+    width: 70vw;
+    height: 10vw;
+  }
+
+  .field {
+    border: solid #5a5a5a 1px;
+    border-radius: 20px;
+    background-color: #fffdf4;
+    height: 3.5vw;
+    flex-grow: 1;
+    padding-left: 1vw;
+    width: 40vw;
+  }
+
+  .form-button {
+    background-color: #5a5a5a;
+    border-radius: 20px;
+    height: 10vw;
+    width: 40vw;
+    margin-left: -0.3vw;
+    cursor: pointer;
+    border: none;
+  }
+
+  .text-button {
+    font-size: 3vw;
+    color: #fffdf4;
+  }
+
+  .footerimg {
+    position: absolute;
+    width: 98.8vw;
+    overflow: hidden;
+    height: 30vw;
+    z-index: -1;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    height: 30vw;
+    width: 98vw;
+    align-items: center;
+    gap: 1vw;
+  }
+
+  .footer > a {
+    text-decoration: none;
+
+    color: #fffdf4;
+    text-transform: uppercase;
+    font-size: 4vw;
+  }
+
+  .playorrelax {
+    display: flex;
+    margin-top: -11vw;
+    justify-content: center;
+    color: #fffdf4;
+    font-size: 3vw;
   }
 }
