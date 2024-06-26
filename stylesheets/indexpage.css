@@ -622,10 +622,11 @@ input.field {
 .outsideview2 {
   display: none;
 }
+
 @media (max-width: 767px) {
   .firstblock {
     position: relative;
-    width: 98vw;
+    width: 99.5vw;
     height: 163vw;
     overflow: hidden;
   }
@@ -779,7 +780,7 @@ input.field {
 
   .secondblock {
     position: relative;
-    width: 100vw;
+    width: 99.5vw;
     height: 80vw;
     overflow: hidden;
   }
@@ -812,7 +813,7 @@ input.field {
 
   .thirdblock {
     position: relative;
-    width: 100vw;
+    width: 99, 5svw;
     height: 160vw;
     overflow: hidden;
   }
@@ -830,11 +831,9 @@ input.field {
 
   .building {
     position: absolute;
-    margin-left: 9.5vw;
-    width: 60vw;
     color: #fffdf4;
     text-transform: uppercase;
-    width: 90vw;
+    width: 85vw;
     font-size: 6vw;
     margin-left: 9.5vw;
     margin-top: 20vw;
@@ -848,5 +847,88 @@ input.field {
     color: #fffdf4;
     text-transform: uppercase;
     text-decoration: underline;
+  }
+
+  .insidebook {
+    display: none;
+  }
+
+  .fourthblock {
+    position: relative;
+    width: 98.8vw;
+    height: 120vw;
+    overflow: hidden;
+  }
+
+  .bookaboutspace {
+    position: absolute;
+    font-size: 6vw;
+    margin-left: 9vw;
+    margin-top: 7vw;
+    width: 60vw;
+    color: #5a5a5a;
+    text-transform: uppercase;
+  }
+
+  .bookcover {
+    position: absolute;
+    width: 30vw;
+    margin-top: 22vw;
+    margin-left: 9.5vw;
+  }
+
+  .introaboutbook {
+    position: absolute;
+    width: 60vw;
+    font-size: 3vw;
+    text-transform: uppercase;
+    margin-left: 9.5vw;
+    margin-top: 64vw;
+    color: #5a5a5a;
+  }
+
+  .button-second {
+    font-size: 4vw;
+    position: absolute;
+    margin-left: 9.5vw;
+    margin-top: 107vw;
+    color: #5a5a5a;
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+
+  .fifthblock {
+    position: relative;
+    width: 98.8vw;
+    height: 120vw;
+    overflow: hidden;
+  }
+
+  .navi1 {
+    position: absolute;
+    width: 85vw;
+    margin-left: -26.5vw;
+    margin-top: -20vw;
+  }
+
+  .navi2 {
+    position: absolute;
+    width: 127vw;
+    margin-left: -22.5vw;
+    margin-top: 24vw;
+  }
+
+  .navi3 {
+    position: absolute;
+    width: 75vw;
+    margin-left: 32.5vw;
+    margin-top: 20vw;
+  }
+
+  .navi4 {
+    position: absolute;
+    width: 60vw;
+    margin-left: 57.5vw;
+    margin-top: 58vw;
   }
 }
