@@ -615,12 +615,30 @@ input.field {
   gap: 1vw;
 }
 
+.missonrespon {
+  display: none;
+}
+
 @media (max-width: 767px) {
   .firstblock {
     position: relative;
-    width: 98.8vw;
-    height: 100vw;
+    width: 98vw;
+    height: 150vw;
     overflow: hidden;
+  }
+
+  .mission {
+    display: none;
+  }
+
+  .missonrespon {
+    position: absolute;
+    width: 80vw;
+    font-size: 3vw;
+    text-transform: uppercase;
+    margin-left: 9.5vw;
+    margin-top: 100vw;
+    color: #5a5a5a;
   }
 
   .burgermenu {
@@ -632,6 +650,19 @@ input.field {
   }
 
   .biglogo {
-    display: none;
+    width: 85vw;
+    position: absolute;
+    margin-top: 70vw;
+    margin-left: 6vw;
+  }
+
+  .company {
+    position: absolute;
+    width: 30vw;
+    font-size: 1vw;
+    text-transform: uppercase;
+    margin-left: 20vw;
+    margin-top: 19vw;
+    color: #5a5a5a;
   }
 }
