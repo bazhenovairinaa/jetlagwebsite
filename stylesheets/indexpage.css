@@ -623,7 +623,7 @@ input.field {
   .firstblock {
     position: relative;
     width: 98vw;
-    height: 160vw;
+    height: 163vw;
     overflow: hidden;
   }
 
@@ -638,7 +638,7 @@ input.field {
     font-size: 6vw;
     text-transform: uppercase;
     margin-left: 9.5vw;
-    margin-top: 115vw;
+    margin-top: 120vw;
     color: #5a5a5a;
   }
 
@@ -653,7 +653,7 @@ input.field {
   .biglogo {
     width: 70vw;
     position: absolute;
-    margin-top: 70vw;
+    margin-top: 72vw;
     margin-left: 20vw;
   }
 
@@ -663,7 +663,7 @@ input.field {
     font-size: 3vw;
     text-transform: uppercase;
     margin-left: 9.5vw;
-    margin-top: 102vw;
+    margin-top: 107vw;
     color: #5a5a5a;
   }
 
@@ -767,12 +767,7 @@ input.field {
   }
 
   .img11 {
-    position: absolute;
-    margin-top: 134.2vw;
-    margin-left: 65.3vw;
-    width: 11.5vw;
-    z-index: 1;
-    animation: vanishing 3s linear infinite;
+    display: none;
   }
 
   .img12 {
@@ -792,5 +787,23 @@ input.field {
   .line2 {
     height: 40vw;
     position: relative;
+  }
+
+  @keyframes line1 {
+    0% {
+      transform: translateX(0vw);
+    }
+    100% {
+      transform: translateX(-153.5vw);
+    }
+  }
+
+  @keyframes line2 {
+    0% {
+      transform: translateX(-167vw);
+    }
+    100% {
+      transform: translateX(0vw);
+    }
   }
 }
