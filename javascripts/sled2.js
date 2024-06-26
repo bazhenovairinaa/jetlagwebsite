@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   document
     .querySelector(".fifthblock")
-    .addEventListener("mousemove", function (e) {
+    ?.addEventListener("mousemove", function (e) {
       let number = getRandomNumber();
 
       canvasPosition = this.getBoundingClientRect();

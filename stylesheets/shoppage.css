@@ -1,0 +1,131 @@
+.shopcards {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  width: 98.8vw;
+  height: 55vw;
+}
+
+.shopcards2 {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  width: 98.8vw;
+  height: 40vw;
+}
+
+.hoody {
+  margin-top: 2vw;
+  position: absolute;
+  width: 40vw;
+}
+
+.bottle {
+  margin-top: 2vw;
+  position: absolute;
+  width: 40vw;
+}
+
+.h2shop {
+  position: absolute;
+  font-size: 1.5vw;
+  text-transform: uppercase;
+  margin-top: 42vw;
+  color: #5a5a5a;
+}
+
+.h3shop {
+  position: absolute;
+  width: 30vw;
+  font-size: 1vw;
+  margin-top: 44vw;
+  color: #5a5a5a;
+}
+
+.h2shop2 {
+  position: absolute;
+  font-size: 1.5vw;
+  text-transform: uppercase;
+  margin-top: 23vw;
+  color: #5a5a5a;
+}
+
+.h3shop2 {
+  position: absolute;
+  width: 30vw;
+  font-size: 1vw;
+  margin-top: 25vw;
+  color: #5a5a5a;
+}
+
+.buttonshop1 {
+  height: 3vw;
+  width: 15vw;
+  border-radius: 20vw;
+  margin-top: 49vw;
+  background-color: #5a5a5a;
+  justify-items: center;
+}
+
+.buttonshop2 {
+  height: 3vw;
+  width: 15vw;
+  border-radius: 2vw;
+  margin-top: 30vw;
+  background-color: #5a5a5a;
+  justify-items: center;
+}
+
+.buttontextshop {
+  color: #fffdf4;
+  font-size: 1vw;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 5;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-wrapper {
+  position: absolute;
+  background: #5a5a5a;
+  opacity: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.popup-content {
+  background-color: #fffdf4;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+  position: relative;
+  width: 300px;
+  text-align: center;
+  z-index: 6;
+}
+
+.next {
+  background-color: #a8a8a8;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 26px;
+  width: 160px;
+  cursor: pointer;
+  border: none;
+  margin-top: 22px;
+  text-decoration: none;
+  color: #fffdf4;
+}

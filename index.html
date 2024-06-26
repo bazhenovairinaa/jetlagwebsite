@@ -4,11 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>jetlag-website</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="/images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/images/favicon-16x16.png"
+    />
+    <link
+      rel="mask-icon"
+      href="/images/safari-pinned-tab.svg"
+      color="#FFFDF4"
+    />
+    <meta name="msapplication-TileColor" content="#FFFDF4" />
+    <meta name="theme-color" content="#FFFDF4" />
     <link rel="stylesheet" href="./stylesheets/style.css" />
     <script src="javascripts/sled.js" charset="utf-8"></script>
     <script src="javascripts/sled2.js" charset="utf-8"></script>
     <script src="javascripts/preloader.js" charset="utf-8"></script>
     <script src="javascripts/popup.js" charset="utf-8"></script>
+    <script src="javascripts/book.js" charset="utf-8"></script>
   </head>
   <body class="indexpage">
     <!-- <div class="preloader" id="preloader">
@@ -89,7 +114,7 @@
         make adaptation centers effective spaces for healing, learning, and
         community building.
       </h3>
-      <a class="button-second">click to see more</a>
+      <a href="book.html" class="button-second">click to see more</a>
     </section>
     <section class="fifthblock">
       <img class="navi1" src="./images/navigation1.png" />
@@ -100,53 +125,51 @@
     <section class="sixthblock">
       <h2 class="news">news</h2>
       <div class="newsbox-1">
-        <img href="news.html" class="plakats" src="./images/plakat1.jpg" />
-        <p class="parag1">
+        <img class="plakats" src="./images/plakat1.jpg" />
+        <a href="news.html" class="paragraphs">
           Our workshop on the stages of adaptation will guide you through the
           psychological and practical aspects of settling into a new world.
           Learn about the common phases of adaptation, from initial excitement
           to possible homesickness.
-        </p>
-        <img href="news.html" class="plakats" src="./images/plakat3.jpg" />
-        <p class="parag2">
+        </a>
+        <img class="plakats" src="./images/plakat3.jpg" />
+        <a href="news.html" class="paragraphs">
           This orientation session is designed to help you embrace and settle
           into your new home. Learn practical tips for integrating into your new
           community, understanding local customs, and making your new planet
           feel like home.
-        </p>
+        </a>
       </div>
       <div class="newsbox-2">
-        <img href="news.html" class="plakats" src="./images/plakat2.jpg" />
-        <img href="news.html" class="plakats" src="./images/plakat4.jpg" />
+        <img class="plakats" src="./images/plakat2.jpg" />
+        <img class="plakats" src="./images/plakat4.jpg" />
       </div>
       <div class="newsbox-3">
-        <p class="parag3">
+        <a href="news.html" class="paragraphs">
           Join our comprehensive seminar on relocating to different planets.
           This session covers the essential information on choosing the right
           planet for your needs, understanding the environmental and cultural
           differences, and preparing for the physical and logistical challenges
           of interplanetary travel. Expert speakers will provide insights.
-        </p>
-        <p class="parag4">
+        </a>
+        <a href="news.html" class="paragraphs">
           Attend our briefing on the detailed schedules for upcoming
           relocations. This event provides an overview of the timelines, key
           dates, and procedural steps involved in the relocation process. Stay
           informed about the deadlines for application submissions, medical
           examinations, and pre-departure preparations to ensure you are ready
           for your journey.
-        </p>
+        </a>
       </div>
     </section>
     <section class="seventhblock">
       <h2 class="signup">sign up for adaptation</h2>
-      <div class="forma">
-        <input class="pole" placeholder=" your e-mail" type="text" />
-        <div class="formbutton"><a class="textbutton">send</a></div>
-      </div>
-      <button id="openPopup">Open Popup</button> 
-        <div id="popup" class="popup"> <div class="popup-content"> 
-          <spanid="closePopup" class="close">&times;</span> 
-        <p>This is a popup text.</p> </div> </div>
+      <form class="form">
+        <input class="field" placeholder=" your e-mail" type="text" />
+        <button type="submit" class="form-button">
+          <a class="text-button">send</a>
+        </button>
+      </form>
     </section>
     <footer>
       <img class="footerimg" src="./images/footer.png" />
@@ -156,7 +179,22 @@
         <a href="news.html">news</a>
         <a href="book.html">book</a>
       </div>
-      <p class="rights">all rights reserved</p>
+      <p class="playorrelax">
+        click to&nbsp;
+        <a href="https://bazhenovairinaa.github.io/interactiveposterJETLAG/">
+          play&nbsp; </a
+        >or
+        <a href="https://bazhenovairinaa.github.io/webplakatJETLAG/"
+          >&nbsp;relax
+        </a>
+      </p>
     </footer>
+    <div class="popup">
+      <div class="popup-wrapper"></div>
+      <div class="popup-content">
+        <p>your application sent successfully</p>
+        <button class="next">continue</button>
+      </div>
+    </div>
   </body>
 </html>

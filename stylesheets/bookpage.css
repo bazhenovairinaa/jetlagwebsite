@@ -17,28 +17,139 @@
   text-decoration: underline;
 }
 
-.bookaboutspace {
-  position: absolute;
-  font-size: 200%;
-  margin-left: 9.5vw;
-  margin-top: 7vw;
-  width: 60vw;
-  color: #5a5a5a;
-  text-transform: uppercase;
+.firstblock2 {
+  position: relative;
+  width: 98.8vw;
+  height: 57vw;
+  overflow: hidden;
 }
 
 .introaboutbook2 {
   position: absolute;
-  width: 30vw;
-  font-size: 100%;
+  width: 60vw;
+  font-size: 1.5vw;
   text-transform: uppercase;
   margin-left: 9.5vw;
   margin-top: 29vw;
   color: #fffdf4;
 }
 
-.insidebook {
+.bookcover2 {
   position: absolute;
-  margin-top: 7vw;
-  margin-left: 41vw;
+  width: 13vw;
+  margin-top: 11vw;
+  margin-left: 9.5vw;
+}
+
+.page1 {
+  width: 25vw;
+  position: absolute;
+  margin-left: -6vw;
+  animation: vanishing 3s linear infinite;
+}
+
+.page2 {
+  width: 25vw;
+  position: absolute;
+  margin-top: 14vw;
+  margin-left: 9vw;
+  z-index: 2;
+  animation: vanishing 2s linear infinite;
+}
+
+.page3 {
+  width: 25vw;
+  position: absolute;
+  margin-top: 27vw;
+  margin-left: 3vw;
+  animation: vanishing 1s linear infinite;
+}
+
+.page4 {
+  width: 25vw;
+  position: absolute;
+  margin-top: 34vw;
+  margin-left: -7vw;
+  animation: vanishing 3s linear infinite;
+}
+
+.page5 {
+  width: 25vw;
+  position: absolute;
+  margin-top: 33vw;
+  margin-left: 30vw;
+  animation: vanishing 2s linear infinite;
+}
+
+.page6 {
+  width: 25vw;
+  position: absolute;
+  margin-top: 0vw;
+  margin-left: 77vw;
+  animation: vanishing 3s linear infinite;
+}
+
+.page7 {
+  width: 25vw;
+  position: absolute;
+  margin-top: 21vw;
+  margin-left: 63vw;
+  animation: vanishing 1s linear infinite;
+}
+
+.page8 {
+  width: 25vw;
+  position: absolute;
+  margin-top: 29vw;
+  margin-left: 44vw;
+  animation: vanishing 1s linear infinite;
+}
+
+.page9 {
+  width: 25vw;
+  position: absolute;
+  margin-top: 5vw;
+  margin-left: 44vw;
+  animation: vanishing 2s linear infinite;
+}
+
+.page10 {
+  width: 25vw;
+  position: absolute;
+  margin-top: 11vw;
+  margin-left: 30vw;
+  animation: vanishing 3s linear infinite;
+}
+
+.page11 {
+  width: 25vw;
+  position: absolute;
+  margin-top: 34vw;
+  margin-left: 74vw;
+  animation: vanishing 3s linear infinite;
+}
+
+.page12 {
+  width: 25vw;
+  position: absolute;
+  margin-top: 12vw;
+  margin-left: 57vw;
+  animation: vanishing 2s linear infinite;
+}
+
+.image-stack {
+  position: relative;
+  width: 50vw;
+  height: 40vw;
+  margin: 0 auto;
+  margin-top: 5.952vw;
+}
+
+.image-stack img {
+  position: absolute;
+  width: 70vw;
+}
+
+.image-stack img.b1 {
+  z-index: 1;
 }

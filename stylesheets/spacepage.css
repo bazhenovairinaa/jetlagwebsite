@@ -1,0 +1,59 @@
+.jetlaginspace {
+  position: relative;
+  width: 100vw;
+  margin-top: -4vw;
+  z-index: -1;
+}
+
+.blockforbuild {
+  position: relative;
+  width: 98.8vw;
+  height: 56vw;
+  overflow: hidden;
+}
+
+.h2buildings {
+  position: absolute;
+  width: 70vw;
+  font-size: 2.5vw;
+  text-transform: uppercase;
+  margin-left: 9.5vw;
+  margin-top: 5vw;
+  color: #5a5a5a;
+}
+
+.h3buildings {
+  position: absolute;
+  width: 40vw;
+  font-size: 1.5vw;
+  margin-left: 20vw;
+  margin-top: 15vw;
+  color: #5a5a5a;
+}
+
+.line-wrapper3 {
+  position: relative;
+  display: flex;
+  margin-top: 20vw;
+  gap: 2vw;
+  animation: line3 8s linear infinite;
+}
+
+.line3 {
+  margin-top: 0.5vw;
+  height: 35vw;
+  position: relative;
+}
+
+@keyframes line3 {
+  0% {
+    transform: translateX(0vw);
+  }
+  100% {
+    transform: translateX(-146vw);
+  }
+}
+
+.line-wrapper3:hover {
+  animation-play-state: paused;
+}

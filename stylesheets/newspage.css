@@ -1,0 +1,75 @@
+.paragraphs2 {
+  text-decoration: none;
+  width: 18vw;
+  font-size: 1.1vw;
+  color: #5a5a5a;
+  cursor: default;
+}
+
+.date1 {
+  margin-top: 2vw;
+  margin-left: 10vw;
+  position: absolute;
+  font-size: 2vw;
+  color: #5a5a5a;
+  text-transform: uppercase;
+}
+
+.date2 {
+  margin-top: 2vw;
+  margin-left: 31vw;
+  position: absolute;
+  font-size: 2vw;
+  color: #5a5a5a;
+  text-transform: uppercase;
+}
+
+.date3 {
+  margin-top: 2vw;
+  margin-left: 52.5vw;
+  position: absolute;
+  font-size: 2vw;
+  color: #5a5a5a;
+  text-transform: uppercase;
+}
+
+.date4 {
+  margin-top: 2vw;
+  margin-left: 74vw;
+  position: absolute;
+  font-size: 2vw;
+  color: #5a5a5a;
+  text-transform: uppercase;
+}
+
+.place1 {
+  margin-top: 31vw;
+  margin-left: 10vw;
+  position: absolute;
+  font-size: 1vw;
+  color: #5a5a5a;
+}
+
+.place2 {
+  margin-top: 40.5vw;
+  margin-left: 31.2vw;
+  position: absolute;
+  font-size: 1vw;
+  color: #5a5a5a;
+}
+
+.place3 {
+  margin-top: 31vw;
+  margin-left: 52.5vw;
+  position: absolute;
+  font-size: 1vw;
+  color: #5a5a5a;
+}
+
+.place4 {
+  margin-top: 40.5vw;
+  margin-left: 73.7vw;
+  position: absolute;
+  font-size: 1vw;
+  color: #5a5a5a;
+}

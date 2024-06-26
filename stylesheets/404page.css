@@ -1,0 +1,35 @@
+.failpage {
+  display: flex;
+  width: 99.8vw;
+  height: 57vw;
+  background-color: #fffdf4;
+  justify-content: center;
+  align-items: center;
+}
+
+.fail-h2 {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  font-size: 2vw;
+  text-transform: uppercase;
+  color: #5a5a5a;
+}
+
+.fail-h3 {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  font-size: 1.5vw;
+  text-transform: uppercase;
+  align-items: center;
+  color: #5a5a5a;
+  margin-top: 4vw;
+  justify-content: center;
+}
+
+.fail-h3:hover {
+  text-decoration: underline;
+}
