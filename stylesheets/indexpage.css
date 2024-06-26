@@ -623,7 +623,7 @@ input.field {
   .firstblock {
     position: relative;
     width: 98vw;
-    height: 150vw;
+    height: 160vw;
     overflow: hidden;
   }
 
@@ -635,10 +635,10 @@ input.field {
     display: block;
     position: absolute;
     width: 80vw;
-    font-size: 3vw;
+    font-size: 5.5vw;
     text-transform: uppercase;
     margin-left: 9.5vw;
-    margin-top: 100vw;
+    margin-top: 111vw;
     color: #5a5a5a;
   }
 
@@ -651,19 +651,144 @@ input.field {
   }
 
   .biglogo {
-    width: 85vw;
+    width: 70vw;
     position: absolute;
     margin-top: 70vw;
-    margin-left: 6vw;
+    margin-left: 20vw;
   }
 
   .company {
     position: absolute;
-    width: 30vw;
-    font-size: 1vw;
+    width: 60vw;
+    font-size: 2.5vw;
     text-transform: uppercase;
-    margin-left: 20vw;
-    margin-top: 19vw;
+    margin-left: 9.5vw;
+    margin-top: 100vw;
     color: #5a5a5a;
+  }
+
+  .img1 {
+    position: absolute;
+    margin-top: 7vw;
+    width: 10vw;
+    animation: vanishing 1s linear infinite;
+  }
+
+  .img2 {
+    position: absolute;
+    margin-top: 14vw;
+    margin-left: 10vw;
+    width: 25vw;
+    animation: vanishing 3s linear infinite;
+  }
+
+  .img3-1 {
+    position: absolute;
+    margin-top: 70vw;
+    margin-left: 27vw;
+    width: 4vw;
+    animation: vanishing 2s linear infinite;
+  }
+
+  .img3-2 {
+    position: absolute;
+    margin-top: 5.3vw;
+    margin-left: 30.9vw;
+    width: 4vw;
+    animation: vanishing 1s linear infinite;
+  }
+
+  .img3-3 {
+    position: absolute;
+    margin-top: 70vw;
+    margin-left: 80vw;
+    width: 6vw;
+    animation: vanishing 3s linear infinite;
+  }
+
+  .img4 {
+    position: absolute;
+    margin-top: 60vw;
+    margin-left: 50vw;
+    width: 10vw;
+    animation: vanishing 2s linear infinite;
+  }
+
+  .img5 {
+    position: absolute;
+    margin-top: 13vw;
+    margin-left: 56vw;
+    width: 10vw;
+    animation: vanishing 1s linear infinite;
+  }
+
+  .img6 {
+    position: absolute;
+    margin-top: 80vw;
+    margin-left: 5vw;
+    width: 7vw;
+    animation: vanishing 2s linear infinite;
+  }
+
+  .img7 {
+    position: absolute;
+    margin-top: 101vw;
+    margin-left: 84vw;
+    width: 5vw;
+    animation: vanishing 1s linear infinite;
+  }
+
+  .img8 {
+    display: none;
+  }
+
+  .img9-1 {
+    position: absolute;
+    margin-top: 23vw;
+    margin-left: 73vw;
+    width: 10vw;
+    animation: vanishing 3s linear infinite;
+  }
+
+  .img9-2 {
+    position: absolute;
+    margin-top: 28vw;
+    margin-left: 63vw;
+    width: 10vw;
+    animation: vanishing 3.5s linear infinite;
+  }
+
+  .img9-3 {
+    position: absolute;
+    margin-top: 33vw;
+    margin-left: 53vw;
+    width: 10vw;
+    animation: vanishing 4s linear infinite;
+  }
+
+  .img10 {
+    position: absolute;
+    margin-top: 48vw;
+    margin-left: 4vw;
+    width: 10vw;
+    animation: vanishing 1s linear infinite;
+  }
+
+  .img11 {
+    position: absolute;
+    margin-top: 44.2vw;
+    margin-left: 30.3vw;
+    width: 10vw;
+    z-index: 1;
+    animation: vanishing 3s linear infinite;
+  }
+
+  .img12 {
+    position: absolute;
+    margin-top: 47vw;
+    margin-left: 62.7vw;
+    width: 6vw;
+    z-index: 1;
+    animation: vanishing 3s linear infinite;
   }
 }
