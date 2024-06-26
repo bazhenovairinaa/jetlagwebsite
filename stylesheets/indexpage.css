@@ -619,6 +619,9 @@ input.field {
   display: none;
 }
 
+.outsideview2 {
+  display: none;
+}
 @media (max-width: 767px) {
   .firstblock {
     position: relative;
@@ -776,7 +779,7 @@ input.field {
 
   .secondblock {
     position: relative;
-    width: 98.8vw;
+    width: 100vw;
     height: 80vw;
     overflow: hidden;
   }
@@ -805,5 +808,45 @@ input.field {
     100% {
       transform: translateX(0vw);
     }
+  }
+
+  .thirdblock {
+    position: relative;
+    width: 100vw;
+    height: 160vw;
+    overflow: hidden;
+  }
+
+  .outsideview {
+    display: none;
+  }
+
+  .outsideview2 {
+    display: block;
+    position: absolute;
+    width: 100vw;
+    height: 160vw;
+  }
+
+  .building {
+    position: absolute;
+    margin-left: 9.5vw;
+    width: 60vw;
+    color: #fffdf4;
+    text-transform: uppercase;
+    width: 90vw;
+    font-size: 6vw;
+    margin-left: 9.5vw;
+    margin-top: 20vw;
+  }
+
+  .button-first {
+    position: absolute;
+    font-size: 4vw;
+    margin-left: 9.5vw;
+    margin-top: 64vw;
+    color: #fffdf4;
+    text-transform: uppercase;
+    text-decoration: underline;
   }
 }
