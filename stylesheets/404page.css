@@ -38,10 +38,11 @@
   .failpage {
     display: flex;
     width: 99.8vw;
-    height: 170vw;
+    height: 180vw;
     background-color: #fffdf4;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
   }
 
   .fail-h2 {
