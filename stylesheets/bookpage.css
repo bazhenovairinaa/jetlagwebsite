@@ -17,10 +17,17 @@
   text-decoration: underline;
 }
 
-.firstblock2 {
+.firstblock2-1 {
   position: relative;
   width: 98.8vw;
   height: 57vw;
+  overflow: hidden;
+}
+
+.secondblock-2 {
+  position: relative;
+  width: 99.5vw;
+  height: 80vw;
   overflow: hidden;
 }
 
@@ -152,4 +159,45 @@
 
 .image-stack img.b1 {
   z-index: 1;
+}
+
+@media (max-width: 767px) {
+  .bookcover2 {
+    width: 30vw;
+    margin-top: 10vw;
+  }
+
+  .introaboutbook2 {
+    margin-top: 53vw;
+    color: #fffdf4;
+    width: 80vw;
+    font-size: 3vw;
+  }
+
+  .firstblock2-1 {
+    position: relative;
+    width: 98.8vw;
+    height: 80vw;
+    overflow: hidden;
+  }
+
+  .secondblock-2 {
+    position: relative;
+    width: 99.5vw;
+    height: 50vw;
+    overflow: hidden;
+  }
+
+  .thirdblock-2 {
+    position: relative;
+    width: 100vw;
+    height: 90vw;
+    overflow: hidden;
+  }
+
+  .image-stack img {
+    position: absolute;
+    margin-top: 20vw;
+    width: 110vw;
+  }
 }
