@@ -129,3 +129,79 @@
   text-decoration: none;
   color: #fffdf4;
 }
+
+@media (max-width: 767px) {
+  .shopcards {
+    height: 120vw;
+  }
+
+  .shopcards2 {
+    height: 85vw;
+    margin-top: 20vw;
+  }
+
+  .hoody {
+    margin-top: 13vw;
+    width: 90vw;
+  }
+
+  .bottle {
+    margin-top: 2vw;
+    width: 90vw;
+  }
+
+  .h2shop {
+    position: absolute;
+    font-size: 6vw;
+    text-transform: uppercase;
+    margin-top: 101vw;
+    color: #5a5a5a;
+  }
+
+  .h3shop {
+    position: absolute;
+    width: 70vw;
+    font-size: 3vw;
+    margin-top: 107vw;
+    color: #5a5a5a;
+  }
+
+  .buttonshop1 {
+    height: 10vw;
+    width: 70vw;
+    border-radius: 20vw;
+    margin-top: 125vw;
+    background-color: #5a5a5a;
+    justify-items: center;
+  }
+
+  .h2shop2 {
+    position: absolute;
+    font-size: 6vw;
+    text-transform: uppercase;
+    margin-top: 47vw;
+    color: #5a5a5a;
+  }
+
+  .h3shop2 {
+    position: absolute;
+    width: 70vw;
+    font-size: 3vw;
+    margin-top: 53vw;
+    color: #5a5a5a;
+  }
+
+  .buttonshop2 {
+    height: 10vw;
+    width: 70vw;
+    border-radius: 20vw;
+    margin-top: 70vw;
+    background-color: #5a5a5a;
+    justify-items: center;
+  }
+
+  .buttontextshop {
+    color: #fffdf4;
+    font-size: 3vw;
+  }
+}

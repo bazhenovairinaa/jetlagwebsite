@@ -88,17 +88,17 @@
   .blockforbuild {
     position: relative;
     width: 98.8vw;
-    height: 145vw;
+    height: 143vw;
     overflow: hidden;
   }
 
   .h2buildings {
     position: absolute;
-    width: 80vw;
+    width: 90vw;
     font-size: 5vw;
     text-transform: uppercase;
     margin-left: 9.5vw;
-    margin-top: 15vw;
+    margin-top: 7vw;
     color: #5a5a5a;
   }
 
@@ -107,14 +107,14 @@
     width: 60vw;
     font-size: 3vw;
     margin-left: 20vw;
-    margin-top: 50vw;
+    margin-top: 39vw;
     color: #5a5a5a;
   }
 
   .line-wrapper3 {
     position: relative;
     display: flex;
-    margin-top: 65vw;
+    margin-top: 57vw;
     gap: 2vw;
     animation: line3 8s linear infinite;
   }
