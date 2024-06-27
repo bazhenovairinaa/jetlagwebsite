@@ -33,3 +33,38 @@
 .fail-h3:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 767px) {
+  .failpage {
+    display: flex;
+    width: 99.8vw;
+    height: 170vw;
+    background-color: #fffdf4;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .fail-h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 6vw;
+    width: 80vw;
+    text-transform: uppercase;
+    color: #5a5a5a;
+  }
+
+  .fail-h3 {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-size: 3vw;
+    text-transform: uppercase;
+    align-items: center;
+    color: #5a5a5a;
+    margin-top: 20vw;
+    justify-content: center;
+  }
+}

@@ -1077,4 +1077,13 @@ input.field {
     color: #fffdf4;
     font-size: 3vw;
   }
+
+  .textpre {
+    position: absolute;
+    font-size: 4vw;
+    text-transform: uppercase;
+    margin-top: 30vw;
+    align-items: center;
+    color: #5a5a5a;
+  }
 }
