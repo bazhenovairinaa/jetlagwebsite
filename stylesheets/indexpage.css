@@ -1102,21 +1102,17 @@ input.field {
 }
 
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
 nav {
-  background-color: #333;
+  background-color: #5a5a5a;
   overflow: hidden;
 }
 
 nav .menu {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
+  display: none;
 }
 
 nav .menu li {
@@ -1125,7 +1121,7 @@ nav .menu li {
 
 nav .menu li a {
   display: block;
-  color: white;
+  color: #fffdf4;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
