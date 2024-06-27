@@ -177,7 +177,7 @@
   .firstblock2-1 {
     position: relative;
     width: 98.8vw;
-    height: 80vw;
+    height: 85vw;
     overflow: hidden;
   }
 
@@ -199,5 +199,6 @@
     position: absolute;
     margin-top: 20vw;
     width: 110vw;
+    margin-left: 3vw;
   }
 }
