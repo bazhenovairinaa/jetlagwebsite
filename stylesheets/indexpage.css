@@ -980,7 +980,7 @@ input.field {
   }
 
   .newsbox-responsive {
-    display: flex;
+    display: block;
     flex-direction: column;
     gap: 1vw;
   }
@@ -1128,7 +1128,7 @@ nav .menu li a {
 }
 
 nav .menu li a:hover {
-  background-color: #575757;
+  background-color: #ffffff;
 }
 
 .menu-icon {

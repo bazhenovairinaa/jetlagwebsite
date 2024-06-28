@@ -27,7 +27,14 @@
 .secondblock-2 {
   position: relative;
   width: 99.5vw;
-  height: 80vw;
+  height: 50vw;
+  overflow: hidden;
+}
+
+.thirdblock-2 {
+  position: relative;
+  width: 99.5vw;
+  height: 50vw;
   overflow: hidden;
 }
 
