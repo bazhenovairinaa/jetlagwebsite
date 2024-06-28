@@ -11,9 +11,9 @@ body.bookpage {
 
 @font-face {
   font-family: "Pragmatica";
-  src: url("../font/ofont.ru_Pragmatica.woff2") format("woff2"),
-    url("../font/ofont.ru_Pragmatica.woff") format("woff"),
-    url("../font/ofont.ru_Pragmatica.ttf") format("truetype");
+  src: url("../font/pragmatica.ttf") format("woff2"),
+    url("../font/pragmatica.woff") format("woff"),
+    url("../font/pragmatica.woff2") format("truetype");
 }
 
 span,
